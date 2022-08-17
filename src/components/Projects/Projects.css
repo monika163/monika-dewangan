@@ -1,0 +1,113 @@
+.projects {
+  width: 100%;
+  background-color: #181818;
+  padding-bottom: 2rem;
+}
+
+.projects-title {
+  text-align: center;
+  padding-top: 3rem;
+  color: #f5d10d;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-container {
+  width: 23rem;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.4rem;
+  margin: 2rem;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.project-container .img-wrapper {
+  width: inherit;
+  height: 12rem;
+  position: relative;
+}
+
+.project-container .buttons-wrapper {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  background-color: #181818da;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+
+.project-container .buttons-wrapper button {
+  width: 6rem;
+  height: 2.4rem;
+  margin: .6rem;
+  background-color: #5dc9ff;
+  border-radius: 2.2rem;
+  font-weight: 500;
+  border: 2px solid white;
+  box-shadow: 1px 1px 3px white;
+}
+
+
+.project-container .img-wrapper img{
+  width: inherit;
+  height: inherit;
+  border-bottom: 2px solid rgb(162, 255, 243);
+  box-shadow: 0px 1px 5px rgb(165, 255, 243);
+}
+
+.project-container .details {
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0.4rem;
+  padding-left: 0.6rem;
+  margin-right: 0.3rem;
+}
+
+.project-container .details p {
+  margin-left: 1.5rem;
+  font-size: .9rem;
+}
+
+.project-container .details span {
+  font-size: 1.4rem;
+  margin-left: 1.5rem;
+}
+
+.project-container .details span i{
+  margin-right: 8px;
+}
+
+.project-container:hover .buttons-wrapper {
+  visibility: visible;
+}
+
+.project-container:hover {
+  box-shadow: 1px 1px 10px #5dc9ff;
+  border: 1px solid #5dc9ff;
+}
+
+@media screen and (max-width: 510px) {
+  .projects-wrapper {
+    margin: 0.2rem;
+  }
+  .project-container {
+  margin: 0.8rem;
+  }
+}

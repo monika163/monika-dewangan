@@ -1,0 +1,217 @@
+.about {
+  background-color: #3C3C3C;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 3rem;
+  padding-bottom: 5rem;
+}
+
+.about .title {
+  height: 10%;
+  text-align: center;
+  color: #f5d10d;
+}
+
+.about .content {
+  display: flex;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.about .content .about-me {
+  max-width: 45rem;
+  line-height: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.teckstacks {
+  margin-top: 3rem;
+  width: 40%;
+}
+
+.teckstacks-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.teck-icon-wrapper {
+  margin: 1rem;
+}
+
+.teck-icon-wrapper i {
+  font-size: 2.8rem;
+  border-radius: 50%;
+  background-color: rgb(245, 245, 245);
+  padding: 0.8rem;
+}
+
+.teck-icon-wrapper p {
+  margin-top: 0.65rem;
+  font-size: 1rem;
+}
+
+/* ///// */
+
+.tools {
+  margin-top: 3rem;
+  width: 40%;
+}
+
+.tools-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tools-icon-wrapper {
+  margin: 1rem;
+}
+
+.tools-icon-wrapper svg {
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  background-color: rgb(245, 245, 245);
+  padding: 0.8rem;
+  margin-bottom: -1rem;
+  margin-top: -0.6rem;
+}
+
+.github path {
+  fill: black;
+}
+
+.teckstacks > h2 {
+  margin-bottom: 0.4rem;
+}
+
+.tools > h2 {
+  margin-bottom: 0.4rem;
+}
+
+.tools-icon-wrapper p {
+  margin-top: 0.7rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1394px) {
+  .teckstacks, .tools {
+    width: 50%;
+  }
+
+  .about .content {
+    font-size: 1.2rem;
+  }
+
+  
+}
+
+@media screen and (max-width: 1134px) {
+  .teckstacks, .tools {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 961px) {
+  .teckstacks, .tools {
+    width: 80%;
+  }
+
+  .about .content {
+    font-size: 1.1rem;
+  }
+
+  .about-me p{
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 611px) {
+  .teck-icon-wrapper i {
+    font-size: 2rem;
+  }
+
+  .tools-icon-wrapper svg {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    /* background-color: rgb(245, 245, 245); */
+    /* padding: 0.8rem; */
+    /* margin-bottom: -1rem; */
+    /* margin-top: -0.6rem; */
+  }
+
+  .about .content {
+    font-size: 1rem;
+  }
+
+  .about {
+    padding: 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 563px) {
+  .teckstacks, .tools {
+    width: 94%;
+  }
+  .teck-icon-wrapper i {
+    font-size: 1.7rem;
+  }
+
+  .teckstacks {
+    margin-top: 2rem;
+  }
+
+  .tools {
+    margin-top: 2rem;
+  }
+
+  .teckstacks > h2 {
+    font-size: 1.5rem;
+  }
+
+  .tools > h2 {
+    font-size: 1.5rem;
+  }
+
+  .teck-icon-wrapper {
+    margin: 0.6rem 0.5rem;
+  }
+
+  .tools-icon-wrapper {
+    margin: 0.6rem 0.5rem;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .teckstacks, .tools {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .teck-icon-wrapper i {
+    font-size: 1.6rem;
+  }
+
+  .tools-icon-wrapper svg {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+  }
+}
