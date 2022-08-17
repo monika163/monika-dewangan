@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/monika-dewangan/static/css/main.6e20b657.chunk.css",
+    "main.js": "/monika-dewangan/static/js/main.fd4aef96.chunk.js",
+    "main.js.map": "/monika-dewangan/static/js/main.fd4aef96.chunk.js.map",
+    "runtime-main.js": "/monika-dewangan/static/js/runtime-main.27c9a477.js",
+    "runtime-main.js.map": "/monika-dewangan/static/js/runtime-main.27c9a477.js.map",
+    "static/js/2.0aca06f4.chunk.js": "/monika-dewangan/static/js/2.0aca06f4.chunk.js",
+    "static/js/2.0aca06f4.chunk.js.map": "/monika-dewangan/static/js/2.0aca06f4.chunk.js.map",
+    "index.html": "/monika-dewangan/index.html",
+    "static/css/main.6e20b657.chunk.css.map": "/monika-dewangan/static/css/main.6e20b657.chunk.css.map",
+    "static/js/2.0aca06f4.chunk.js.LICENSE.txt": "/monika-dewangan/static/js/2.0aca06f4.chunk.js.LICENSE.txt",
+    "static/media/Monika_Dewangan.4410fd97.pdf": "/monika-dewangan/static/media/Monika_Dewangan.4410fd97.pdf",
+    "static/media/memory-game.f42a0bdc.PNG": "/monika-dewangan/static/media/memory-game.f42a0bdc.PNG",
+    "static/media/monika-3.73d185f9.jpg": "/monika-dewangan/static/media/monika-3.73d185f9.jpg",
+    "static/media/shoping-cart.f76207b9.PNG": "/monika-dewangan/static/media/shoping-cart.f76207b9.PNG",
+    "static/media/todolist.2a817017.PNG": "/monika-dewangan/static/media/todolist.2a817017.PNG",
+    "static/media/typing-ninja.8ac7e764.PNG": "/monika-dewangan/static/media/typing-ninja.8ac7e764.PNG",
+    "static/media/weather-app.cbd1b898.PNG": "/monika-dewangan/static/media/weather-app.cbd1b898.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27c9a477.js",
+    "static/js/2.0aca06f4.chunk.js",
+    "static/css/main.6e20b657.chunk.css",
+    "static/js/main.fd4aef96.chunk.js"
+  ]
+}
